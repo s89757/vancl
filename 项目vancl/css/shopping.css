@@ -1,0 +1,295 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#div_wap{
+	width: 100%;
+}
+#shopp_wap{
+	width: 985px;
+	height: 1000px;
+	/*background: khaki;*/
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#biaotilan{
+	width: 985px;
+	height: 55px;
+	/*background: greenyellow;*/
+	border-bottom: 2px solid gray;
+}
+#biaotilan img{
+	width: 125px;
+	height: 54px;
+	float: left;
+	margin-left: 90px;
+	line-height: 55px;
+	cursor: pointer;
+}
+
+#biaotilan ul{
+	overflow: hidden;
+	float: right;
+	margin-right: 60px;
+}
+#biaotilan li{
+	float: left;
+	margin-right: 10px;
+	list-style: none;
+	line-height: 55px;
+}
+#biaotilan #bangzhu{
+	float: right;
+	line-height: 55px;
+	cursor: pointer;
+}
+
+#biaotilan #bangzhu:hover{
+	color: red;
+}
+
+
+
+
+
+/* ------------导航-------------------*/
+
+#nav_shopping{
+	width: 985px;
+	height: 40px;
+	/*background: yellow;*/
+	position: relative;
+}
+
+#nav_shoppingo{
+	width: 180px;
+	height: 30px;
+	background: #bd0a0a;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#nav_shoppingo:after{
+	z-index: 3;
+	content: "";
+	position: absolute;
+	border-left: 15px solid #bd0a0a;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	left: 180px;
+}
+
+#nav_shoppingt{
+	width: 180px;
+	height: 30px;
+	background: #ea3838;
+	line-height: 30px;
+	text-align: center;
+	
+	position: absolute;
+	bottom: 0;
+	left: 180px;
+}
+#nav_shoppingt:after{
+	z-index: 999;
+	content: "";
+	position: absolute;
+	border-left: 15px solid #ea3838;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	left: 180px;
+}
+
+#nav_shoppings{
+	width: 180px;
+	height: 30px;
+	background: #eeeeee;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 360px;
+}
+#nav_shoppings:after{
+	z-index: 1;
+	content: "";
+	position: absolute;
+	border-left: 15px solid #eeeeee;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	left: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#shopping_gouwuc{
+	width: 985px;
+	height: 50px;
+	/*background: blueviolet;*/
+	overflow: hidden;
+}
+
+
+#shopping_gouwuc img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#shopping_gouwuc div{
+	margin-top: 12px;
+	float: left;
+	font-size: 26px;
+}
+
+#shopping_tishi{
+	width: 985px;
+	height: 30px;
+	font-size: 12px;
+}
+
+#shopping_list img{
+	width: 100px;
+	height: 100px;
+}
+
+
+
+
+
+
+
+/* ----------------商品列表详情---------------------------------------------*/
+
+#shopping_list{
+	text-align: center;
+	
+}
+/*#shangpinmingchen{
+	position: relative;
+}
+#shangpinmingchen span{
+	position: absolute;
+	top: 0;
+}*/
+.shangpinmingchen img{
+	vertical-align: middle;
+}
+.caozuo a:hover{
+	cursor: pointer;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------结算---------*/
+
+
+#shopping_jiesuan{
+	width: 985px;
+	height: 120px;
+	background: #fffef5;
+	border: 1px solid gainsboro;
+	
+	
+	
+	position: relative;
+	margin-top: 12px;
+}
+
+#shopping_jiesuano{
+	position: absolute;
+	left: 15px;
+	top: 25px;
+}
+#shopping_jiesuano span{
+	margin-left: 20px;
+}
+
+
+#shopping_jiesuant{
+	position: absolute;
+	left: 15px;
+	bottom: 25px;
+}
+#zongjijiage{
+	font-size: 28px;
+	color: red;
+}
+
+
+
+
+
+
+
+#jixugouwu{
+	width: 135px;
+	height: 38px;
+	background: #e5e5e5;
+	color: white;
+	position: absolute;
+	right: 185px;
+	bottom: 25px;
+	border-radius: 12px;
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+#qujiesuan{
+	width: 150px;
+	height: 50px;
+	background: #c00b0b;
+	font-size: 21px;
+	color: white;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	cursor: pointer;
+	border-radius: 12px;
+	line-height: 50px;
+	text-align: center;
+}

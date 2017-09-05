@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>window对象</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+button{
+	background:#3498db;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+	width:70px;
+	line-height:50px;
+	border:none 0;
+	cursor:pointer;
+	margin:20px 20px 0 0;
+	margin-left:120px;
+	display:none;
+}
+#textsContent{
+	height:3000px;
+}
+.btnContent{
+	position:fixed;
+	bottom:30px;
+	right:30px;
+	
+}
+.colorBlock{
+	height:500px;
+	background:#c0dbff;
+}
+</style>
+
+
+</head>
+
+<body>
+    <div id="textsContent">
+    	<div class="btnContent">
+            <div><button id="mtBtn03">回顶部</button></div>
+        </div>
+        <div class="colorBlock"></div>
+        <div class="colorBlock" style="background:#c0faff"></div>
+        <div class="colorBlock" style="background:#d6ffc0"></div>
+        <div class="colorBlock" style="background:#ffcfe3"></div>
+        <div class="colorBlock" style="background:#fffbcf"></div>
+        <div class="colorBlock" style="background:#c0faff"></div>
+    
+    </div>
+    <script type="text/javascript">
+    	
+    	window.onload=function(){
+    		var flag=true;//
+    		var btn=document.getElementsByTagName("button")[0];
+	    	window.onscroll=function(){
+	    		//假如页面滚动距离大于600 让按钮显示
+	    			//--flase--显示
+	    			//--true--不让显示
+	    			
+	    			if(flag&&(document.body.scrollTop||document.documentElement.scrollTop)>600){
+	    					btn.style.display="block";
+	    			}
+	    		
+	    		
+	    	}
+    		
+    		btn.onclick=function(){
+    			btn.style.display="none";
+    			var timer=setInterval(function(){
+    					flag=false;
+    					window.scrollBy(0,-100);
+    				var top=document.body.scrollTop||document.documentElement.scrollTop;
+    					if(top<=0){
+    						clearInterval(timer);
+    						flag=true;
+    					}
+    			},10)
+    		
+    			
+    
+    		}
+    		
+    		
+    		
+    	}
+    	
+    	
+    	
+    	
+    </script>
+</body>
+
+
+</html>

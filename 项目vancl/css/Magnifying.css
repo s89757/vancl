@@ -1,0 +1,411 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wap{
+	width: 1200px;
+	height: 1000px;
+}
+#nav_particulars{
+	width: 1200px;
+	height: 25px;
+	/*background: red;*/
+	margin: 0 auto;
+}
+#nav_particulars ul{
+	overflow: hidden;
+}
+#nav_particulars ul li{
+	float: left;
+	list-style: none ;
+	margin-left: 15px;
+}
+
+
+
+/*一键置顶*/
+#enable_Top{
+   width: 100%;
+   height: 40px;
+   background: gainsboro;
+   position: fixed;
+   display: none;
+ 
+   line-height: 40px;
+   z-index: 999;
+}
+
+
+
+
+#enable_Top #enableTopo{
+	
+	
+    float: left;
+}
+
+
+
+
+#enableTops li{
+	  float: right;
+	list-style: none;
+	margin-right: 30px;
+	
+	
+}
+.miaoshu{
+	cursor: pointer;
+}
+.pinglun{
+	 cursor: pointer;
+}
+.tiwen{
+	 cursor: pointer;
+}
+.miaoshu:hover{
+	  color: red;
+}
+.pinglun:hover{
+	  color: red;
+}
+.tiwen:hover{
+	  color: red;
+}
+
+
+
+
+
+
+
+
+
+#Stick{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    /*background: deepskyblue;*/
+   position: relative;
+    }
+    
+    
+#Stick ul li{
+	float: right;
+	list-style: none;
+	margin-right: 15px;
+	cursor: pointer;
+	line-height: 50px;
+	
+}    
+#Stick #Stick_Top{
+	float: left;
+line-height: 50px; 
+margin-left: 20px;}
+
+
+
+
+/*放大镜*/
+
+
+#particulars{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+	/*background: skyblue;*/
+	overflow: hidden;
+	position: relative;
+}
+
+
+
+
+.master_Map{
+	width: 600px;
+	height: 140px;
+	float: left;
+	position: relative;
+	/*position: absolute;
+	top: 380px;
+	left: 228px;*/
+	float: left;
+}
+
+.master_Map1{
+	width: 50px;
+	height: 50px;
+	border: 1px solid gainsboro;
+	
+}
+.master_Map2{
+	width: 400px;
+	height: 400px;
+	border: 1px solid gainsboro;
+}
+
+
+
+
+
+            #master_map{  
+				width: 350px;
+				height: 350px;
+				position: absolute;
+				overflow: hidden;
+				left: 100px;
+				cursor: pointer;
+			}
+			#master_map li{
+				list-style: none;
+			}
+			#master_map img{
+				width: 350px;
+				height: 350px;
+			}
+			#magnifying_glass{
+				width: 150px;
+				height: 150px;
+				 background-color: rgba(221,165,32,0.4);
+				 position: absolute;
+				 left: 0;
+				 top: 0;
+				 display: none;
+			}
+			#mapUp{
+				width: 400px;
+				height: 400px;
+				position: absolute;
+				left: 460px;
+				
+				overflow: hidden;
+				display: none;
+			}
+			#mapUp img{
+				width: 1000px;
+				height: 1000px;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			
+
+
+
+
+
+/*商品标签*/
+
+#price_list{
+	width: 500px;
+	height: 400px;
+	
+	margin-left: 550px;
+}
+
+#price_list #sizeID div{
+	border: 1px solid gainsboro;
+}
+#price_list #sizeID div:hover{
+	border: 1px solid red;
+}
+
+
+
+#price_list #goumai #goumaione{
+	width: 140px;
+	height: 30px;
+	background: #f7abaf;
+	float: left;
+	font-size: 18px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid red;
+}
+#goumaione,#goumaitwo:hover{
+	cursor: pointer;
+}
+#price_list #goumai #goumaitwo{
+	width: 140px;
+	height: 30px;
+	background: #b30d14;
+	float: left;
+	font-size: 18px;
+	margin-left: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid red;
+}
+ #price_list #goumai #goumaitwo img{
+	width: 22px;
+	height: 30px;
+	background: #b30d14;
+    
+}
+
+
+
+
+
+
+/*
+模特展示区*/
+
+
+#mannequin{
+	width: 1200px;
+	/*margin-top: 1200px;*/
+	margin: 0 auto;
+}
+#mannequin #mannequinone{
+	width: 1200px;
+	height: 150px;
+	/*background: khaki;*/
+	/*margin-left: 100px;*/
+	line-height: 80px;
+	color: red;
+}
+#mannequin #mannequinone span{
+	margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+ /*--------------------------- 评论    提问          */
+
+
+#comment_question{
+	margin: 0 auto;
+	width: 1200px;
+	height: 2060px;
+	/*background: cyan;*/
+	position: relative;
+}
+
+#recommend{
+	width: 240px;
+	height: 1250px;
+	border: 1px solid gainsboro;
+	/*background: red;*/
+	float: left;
+	margin-left: 40px;
+}
+
+#recommend p{
+	width: 240px;
+	height: 50px;
+	border-bottom: 1px solid gainsboro;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+}
+#recommend_list li{
+	width: 160px;
+	height: 240px;
+	list-style: none;
+	margin-left: 40px;
+	position: relative;
+}
+#recommend_list li img{
+	width: 160px;
+	height: 160px;
+	cursor: pointer;
+}
+#recommend_list li .wwww{
+	width: 160px;
+	height: 18px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 18px;
+	position: absolute;
+	
+}
+#recommend_list li .uuuu{
+	width: 160px;
+	height: 18px;
+	font-size: 12px;
+	color: red;
+	text-align: center;
+	line-height: 18px;
+	position: absolute;
+}
+
+
+#comment{
+	width: 800px;
+	height: 1000px;
+	border: 1px solid gainsboro;
+	/*background: gold;*/
+	margin-right: 40px;
+	float: right;
+	
+	/*border-bottom: 5px solid red;*/
+}
+#comment #comment_biaoqian{
+	width: 800px;
+	height: 50px;
+	border-bottom: 1px solid gainsboro;
+}
+#comment #comment_pinglun{
+	width: 720px;
+	height: 950px;
+	margin: 0 auto;
+	/*background: gold;*/
+}
+#comment_pinglun span{
+	font-size: 12px;
+}
+#question{
+	width: 800px;
+	height: 1000px;
+	border: 1px solid gainsboro;
+	/*background: blanchedalmond;*/
+	position: absolute;
+	bottom: 30px;
+	right: 40px;
+	float: right;
+}
+
+
+#question #question_biaoqian{
+	width: 800px;
+	height: 50px;
+	border-bottom: 1px solid gainsboro;
+}
+#question #question_pinglun{
+	width: 720px;
+	height: 950px;
+	margin: 0 auto;
+	/*background: gold;*/
+}
+#question_pinglun{
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+var product={};
+//热卖商品详情信息
+product.hot=[
+				{"id":"001","src":"img/55551.PNG",price:"888",'des':"好的东西","name":"天空"},
+				{"id":"002","src":"img/55552.PNG",price:"999",'des':"好的东西1","name":"空气"},
+				{"id":"003","src":"img/55553.PNG",price:"188",'des':"不好","name":"火狐"},
+			
+			]
+			
+			

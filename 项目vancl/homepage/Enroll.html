@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册页面</title>
+		<link rel="stylesheet" type="text/css" href="../css/Enroll.css"/>
+		<script type="text/javascript" src="jquery-1.8.3.min.js">
+			
+		</script>
+		<script type="text/javascript" src="../js/Enroll.js"></script>
+	</head>
+	<body>
+		<div id="wap">
+			<ul >
+				<a href="http://127.0.0.1:8020/vancl-homepage/homepage/one_homepage.html"><img src="../img/vancl.PNG"/></a>
+			</ul>
+			
+			<div id="Enter" style=" margin-top: 20px; overflow: hidden;position: relative;width: 1200px;height: 800px;">
+				<hr />
+				<div id="vancl_phone"  style="width: 700px;height: 600px; float: left;" onclick="tiaozhuan()">
+					<img src="../小图片/login120412_newlogo.jpg" style="cursor: pointer; margin-left: 150px; margin-top: 95px;"/>
+				</div >
+				<div id="Enter_message" >
+					<ul>
+						<li >注册新用户</li>
+						<li style="float: right;">我已经注册，现在就<a style="color: red; cursor: pointer;" href="Register.html">登录</a></li>
+					</ul>
+					<input  type="text" id="inputOne" placeholder="请输入手机号" style="top: 70px;width: 280px; height: 40px;"/>
+					<div  id="inputOnewk"><img src="../img/17e58PICVtD_1024.png" style="width: 12px;height: 12px;"/>您输入的手机号为空</div>
+					<div  id="inputOnecw"><img src="../img/17e58PICVtD_1024.png" style="width: 12px;height: 12px;"/>您输入的手机号错误</div>
+					<div id="obtains"><a id="obtain" href="">获取短信验证</a></div>
+					<input  type="text" id="inputTwo" placeholder="填写手机验证码" style="top: 140px;"/>
+					<div  id="inputTwowk"><img src="../img/17e58PICVtD_1024.png" style="width: 12px;height: 12px;"/>您输入的验证码为空</div>
+					<div  id="inputTwocw"><img src="../img/17e58PICVtD_1024.png" style="width: 12px;height: 12px;"/>您输入的验证码不正确</div>
+					<input  type="text" id="inputThree" placeholder="设定登录密码" style="top: 210px;"/>
+					<div  id="inputThreewk"><img src="../img/17e58PICVtD_1024.png" style="width: 12px;height: 12px;"/>您输入的密码为空</div>
+					<div  id="inputThreecw"><img src="../img/17e58PICVtD_1024.png" style="width: 12px;height: 12px;"/>您输入的密码错误</div>
+					<input  type="text" id="inputFour" placeholder="再次输入密码" style="top: 280px;"/>
+					<div  id="inputFourwk"><img src="../img/17e58PICVtD_1024.png" style="width: 12px;height: 12px;"/>您输入的密码为空</div>
+					<div  id="inputFourcw"><img src="../img/17e58PICVtD_1024.png" style="width: 12px;height: 12px;"/>您输入的密码和上次不一样</div>
+					<div id="registers"><a id="register">立即注册</a></div>
+					<input type="checkbox" id="btnBtn" />
+					<div  style="position: absolute;top: 370px; left: 40px;">请阅读<a id="registerOne"   href="http://help.vancl.com/Category/69-1.html" >《VANCL凡客诚品服务条款》</a><div>
+				</div>
+			</div>
+			
+		</div>
+		<div id="sternzc" style="margin: 0 auto;position: absolute; top: 600px;"></div>
+		
+		<script type="text/javascript">
+		
+			
+			
+			$(function(){
+				$("#sternzc").load("SternT.html")
+			})
+			
+		</script>
+	</body>
+	
+</html>

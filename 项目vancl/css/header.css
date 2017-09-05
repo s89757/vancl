@@ -1,0 +1,343 @@
+*{margin: 0; padding: 0;}
+			#waps{
+				width: 100%;
+				min-width: 1200px;
+				/*background: salmon;*/
+			}
+			
+			#label{
+				margin: 0 auto;
+				width: 1200px;
+				height: 25px;
+				background: #f7f7f7;
+				position: relative;
+			
+			}
+			#label ul{
+				text-align: 30px;
+				overflow: hidden;
+			}
+			#label ul li{
+				text-align: 30px;
+				list-style: none;
+				float: right;
+				margin-right: 10px;
+				cursor: pointer;
+			}
+			#wap{
+				width: 1200px;
+				height: 170px;
+				margin: 0 auto;
+			}
+			#labelTwo ul{
+				
+				overflow: hidden;
+			}
+			#labelTwo ul li{
+				float: right;
+				list-style: none;
+				margin-top: 40px;
+			}
+			#labelThree ul{
+				
+				margin-right: 50px;
+				margin-top: 10px;
+				overflow: hidden;
+			}
+			#labelThree ul li{
+				cursor: pointer;
+				float: right;
+				list-style: none;
+				margin-right: 15px;
+				font-size: 10px;
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			#wodedingdan:hover{
+				color: red;
+			}
+			#wangzhangonggao:hover{
+				color: red;
+			}
+			
+			#weixintupian{
+				position: absolute;
+				right: 30px;
+			}
+			
+			#weixintupian:hover #weixinxians{
+				display: block;
+			}
+			#weixinxians{
+				z-index: 66;
+				width: 100px;
+				height: 140px;
+				
+				position: absolute;
+				right: 0px;
+				display: none;
+			}
+		
+			
+			/*#labelFour ul{
+				margin-right: 10px;
+				margin-top: 42px;
+				overflow: hidden;
+			}
+			#labelFour ul li{
+				
+				
+				float: right;
+				list-style: none;
+				margin-right: 30px;
+				font-size: 16px;
+			}*/
+			
+/*#merchandise{
+	width: 1200px;
+	height: 400px;
+	font-size: 12px;
+	cursor: pointer;
+	margin: 0 auto;
+	background: red;
+}*/
+
+
+
+/*#T-shirt{
+	
+	width: 80px;
+	height: 480px;
+	background: red;
+	position: absolute;
+	left: 460px;
+	display: none;
+}
+
+
+#T-shirt div{
+	width: 80px;
+	height: 30px;
+	background: white;
+	line-height: 30px;
+	text-align: center;
+}
+#blouse{
+	width: 80px;
+	height: 360px;
+	background: red;
+	position: absolute;
+	left: 554px;
+	display: none;
+}
+
+
+#blouse div{
+	width: 80px;
+	height: 30px;
+	background: yellow;
+	line-height: 30px;
+	text-align: center;
+}
+
+#C_9{
+	width: 80px;
+	height: 150px;
+	background: red;
+	position: absolute;
+	left: 644px;
+	display: none;
+	
+}
+
+
+#C_9 div{
+	width: 80px;
+	height: 30px;
+	background: yellow;
+	line-height: 30px;
+	text-align: center;
+}
+
+
+#shoe{
+	width: 80px;
+	height: 150px;
+	background: red;
+	position: absolute;
+	left: 726px;
+	display: none;
+}
+
+
+#shoe div{
+	width: 80px;
+	height: 30px;
+	background: yellow;
+	line-height: 30px;
+	text-align: center;
+}
+
+#fibre{
+	width: 80px;
+	height: 120px;
+	background: red;
+	position: absolute;
+	left: 806px;
+	display: none;
+}
+
+
+#fibre div{
+	width: 80px;
+	height: 30px;
+	background: yellow;
+	line-height: 30px;
+	text-align: center;
+}
+
+#cotton{
+	width: 80px;
+	height: 120px;
+	background: red;
+	position: absolute;
+	left: 904px;
+	display: none;
+}
+
+
+#cotton div{
+	width: 80px;
+	height: 30px;
+	background: yellow;
+	line-height: 30px;
+	text-align: center;
+}
+
+#pants{
+	width: 80px;
+	height: 180px;
+	background: red;
+	position: absolute;
+	left: 1008px;
+	display: none;
+}
+
+
+#pants div{
+	width: 80px;
+	height: 30px;
+	background: yellow;
+	line-height: 30px;
+	text-align: center;
+}
+
+#accessories{
+	width: 80px;
+	height: 300px;
+	background: red;
+	position: absolute;
+	left: 1120px;
+	display: none;
+}
+
+
+#accessories div{
+	width: 80px;
+	height: 30px;
+	background: yellow;
+	line-height: 30px;
+	text-align: center;
+}
+
+#customization{
+	width: 80px;
+	height: px;
+	background: red;
+	position: absolute;
+	left: 1242px;
+	display: none;
+}
+
+
+#customization div{
+	width: 80px;
+	height: 30px;
+	background: yellow;
+	line-height: 30px;
+	text-align: center;
+}*/
+
+
+
+
+
+
+#labelFour div{
+	position: relative;
+	z-index: 999;
+	width: 98px;
+	height: 25px;
+	/*background: yellow;*/
+	/*margin-right: 5px;*/
+	margin-top: 47px;
+	float: right;
+	text-align: center;
+	cursor: pointer;
+	border-left: 1px solid black;
+}
+
+/*#labelFour div:hover li{
+	z-index: 999;
+	display: block;
+}*/
+#labelFour div li{
+	position: relative;
+	background: white;
+	z-index: 999;
+	font-size: 12px;
+	list-style: none;
+	width: 98px;
+	
+   
+	/*height: 22px;*/
+	/*background: red;*/
+	text-align: center;
+	line-height: 30px;
+	/*margin-top: 4px;*/
+	display: none;
+	cursor: pointer;
+}
+#labelFour div li:hover{
+	color: red;
+}
+/*#labelFour div span{
+	cursor: pointer;
+}*/
+/*#labelFour div ul{
+	
+	width: 100px;
+	height: 4px;
+	background: red;
+	display: none;
+}*/
+
+
+
+#shouye{
+	text-decoration: none;
+	color: black;
+}
+#shouye:hover{
+	color: red;
+}

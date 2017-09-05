@@ -1,0 +1,272 @@
+#vancl_enter{position: relative;
+ width: 400px;
+ height: 550px;
+ margin-right: 100px;
+margin-top: 40px; 
+float: right; 
+overflow: hidden; 
+/*background: red;*/
+}
+#vancl_enter #enterOne{
+	width: 400px;
+	height: 38px;
+	/*background: yellow;*/
+	
+}
+#vancl_enter #enterOne span{
+	float: left;
+	font-size: 25px;
+	opacity: 0.6;
+}
+#vancl_enter #enterOne div{
+	float: right;
+	opacity: 0.6;
+	line-height: 35px;
+}
+#enterOne a{
+	text-decoration: none;
+	color: red;
+}
+#enterOne a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+
+#enter_anniu{
+	width: 300px;
+	height: 30px;
+	/*background: blue;*/
+	position: relative;
+	margin-left: 40px;
+	margin-top: 15px;
+	border: 1px solid gainsboro;
+}
+#common_member{
+	width: 150px;
+	height: 35px;
+	background: indianred;
+	position: absolute;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+#speediness{
+	width: 150px;
+	height: 35px;
+	background: white;
+	position: absolute;
+	left: 150px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+#Regist{
+	width: 300px;
+	height: 320px;
+	/*background: yellow;*/
+	margin-left: 40px;
+	position: relative;
+	margin-top: 3px;
+	border: 1px solid gainsboro;
+}
+#registerOne{
+	width: 300px;
+	height: 240px;
+	/*background: blue;*/
+	/*display: none;*/
+	position: relative;
+}
+
+#registerOne input{
+	width: 280px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 9px;
+	
+}
+
+
+
+#registerOne a{
+	position: absolute;
+	bottom: 74px;
+	right: 28px;
+	color: red;
+	cursor: pointer;
+}
+
+#registerOne a:hover{
+	text-decoration: underline;
+}
+#registerOne div a{
+	background: darkred;
+	width: 280px;
+	height: 40px;
+	
+	position: absolute;
+	bottom: 30px;
+	right: 10px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	color: wheat;
+}
+
+
+
+
+#registerTwo{
+	display: none;
+	width: 300px;
+	height: 220px;
+/*	background: yellow;*/
+	
+	position: relative;
+}
+#registerTwo input{
+	margin-top: 15px;
+	margin-left: 9px;
+}
+#registerTwo #registerTwoo{
+	width: 80px;
+	height: 34px;
+	font-size: 12px;
+	position: absolute;
+	border: 1px solid lightslategray;
+	background: gainsboro;
+	top: 15px;
+	right: 9px;
+	color: red;
+	text-align: center;
+	line-height: 32px;
+	
+}
+#registerTwo a:hover{
+	text-decoration: underline;
+} 
+#registerTwo #registerTwot {
+	width: 80px;
+	height: 34px;
+	background: khaki;
+	position: absolute;
+	top: 64px;
+	left: 113px;
+}
+
+#registerTwo #registerTwos{
+	cursor: pointer;
+	position: absolute;
+	top: 64px;
+	left: 200px;
+	font-size: 12px;
+}
+#registerTwo #registerTwof{
+	background: darkred;
+	width: 280px;
+	height: 40px;
+	
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	color: wheat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Regist ul{
+	overflow: hidden;
+	
+}
+#Regist ul li{
+	float: left;
+	margin-left: 10px;
+}
+#Regist ul li img{
+	width: 25px;
+	height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#yonghuwk{
+	width: 180px;
+	height: 18px;
+	position: absolute;
+	font-size: 12px;
+	left: 25px;
+	/*top: 2px;*/ 
+	border: 1px solid gray;
+	color: red;
+	display: none;
+}
+
+#mimawk{
+	width: 180px;
+	height: 18px;
+	position: absolute;
+	font-size: 12px;
+	left: 25px;
+	/*top: 2px;*/ 
+	border: 1px solid gray;
+	color: red;
+	display: none;
+}
+#yonghucw{
+	width: 180px;
+	height: 18px;
+	position: absolute;
+	font-size: 12px;
+	left: 25px;
+	/*top: 2px;*/ 
+	border: 1px solid gray;
+	color: red;
+	display: none;
+}
+
+#mimacw{
+	width: 180px;
+	height: 18px;
+	position: absolute;
+	font-size: 12px;
+	left: 25px;
+	/*top: 2px;*/ 
+	border: 1px solid gray;
+	color: red;
+	display: none;
+}

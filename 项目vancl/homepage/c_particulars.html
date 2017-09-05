@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/Magnifying.css"/>
+		<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="../js/Magnifying.js">
+			
+		</script>
+		<script type="text/javascript">
+			$(function(){
+					$("#headert").load("Header.html",function(){
+							$("#wap").css("border","none");
+					 });
+					$("#Stern").load("stern.html",function(){
+					$("body").css("background","white");
+					 });
+			   	
+			})
+			
+		</script>
+		
+	</head>
+	<body>
+		<div id="headert" style="width: 100%;border: none;"></div>
+		<div id="enable_Top" >
+			<div id="enableTopo">凡客T恤>>>>熊本熊>>>><span class="proname">T14 黑色<span></div>
+			<ul id="enableTops">
+		        <li class="miaoshu" id="miaoshus">产品描述</li>
+		        <li>|</li>
+		        <li class="pinglun" id="pingluns">评论</li>
+		        <li>|</li>
+		        <li class="tiwen" id="tiwens">提问</li>
+		    </ul>		
+		</div>			
+		<div id="wap" style="width: 1200px; height: 600px;">
+			
+			<div id="nav_particulars">
+				<ul>
+					<li>首页&nbsp;&nbsp;&nbsp;&nbsp;></li>
+					<li>男装&nbsp;&nbsp;&nbsp;&nbsp;></li>
+					<li>T恤&nbsp;&nbsp;&nbsp;&nbsp;></li>
+					<li>短袖T恤&nbsp;&nbsp;&nbsp;&nbsp;></li>
+					<li class="proname" ></li>
+				</ul>
+			</div>
+			<div id="Stick" >
+	            <h3 id="Stick_Top" class="proname">凡客T恤 熊本熊T14 黑色</h3>
+	            <ul >
+	            	<li class="miaoshu">提问</li>
+	            	<li>|</li>
+	            	<li class="pinglun">评论</li>
+	            	<li>|</li>
+	            	<li class="tiwen" >产品描述</li>
+	            </ul>
+			</div>
+			<div id="particulars">
+				<!--<div class="master_Map">
+					<img class="master_Map1" src="../particulars-phone/6375942-1j201706081710395370.jpg" />
+					<div id="master_Map1s">
+						<img class="master_Map2" src="../particulars-phone/6375942-1j201706081710395370.jpg" />
+					</div>
+				</div>
+				<div class="master_Map">
+					<img class="master_Map1" src="../particulars-phone/6375942-5201706081710395370.jpg" />
+					<div id="master_Map1s">
+						<img class="master_Map2" src="../particulars-phone/6375942-5201706081710395370.jpg" />
+					</div>
+				</div>-->
+				<div id="master_map">
+					<img id="master_map1"   class="pro_img"/>
+					<!--<div id="master_map1"><img class="pro_img"/></div>-->
+					<div id="magnifying_glass"></div>
+				</div>
+				<div id="mapUp">
+					<div  class="pro_img"></div>
+						<img src="../particulars-phone/6375942-1j201706081710395370.jpg" id="mapUpimg" class="pro_img" />
+				</div>
+				
+				
+				<div id="price_list">
+					<div style="height: 30px;">
+						<span style="color: red; ">
+							售价：<span style=" font-size: 27px;">￥</span><span style="font-size: 25px;" class="prcie"></span>
+							<span style="cursor: pointer; font-size: 12px;">充100返100，点击充值</span>
+						</span>
+					</div>
+					<br />
+					<div style="height: 40px;">
+						<span>颜色：</span>
+							<img class="pro_img" style="width: 40px;height: 40px;"/>
+				            <span class="yanse">黑色</span>
+						
+					</div>    
+					<div id="sizeID" style="height: 50px; ">
+						<span style="float: left;line-height: 50px;">尺码：</span>
+						<div id="sss" style="float: left; margin-top:15px ;margin-left: 10px;"> &nbsp;&nbsp;S&nbsp;&nbsp;  </div>
+						<div style="float: left; margin-top:15px ;margin-left: 10px;"> &nbsp;&nbsp;M&nbsp;&nbsp;  </div>
+						<div style="float: left;  margin-top:15px ;margin-left: 10px;"> &nbsp;&nbsp;L&nbsp;&nbsp;  </div>
+						<div style="float: left;  margin-top:15px ;margin-left: 10px;"> &nbsp;&nbsp;XL&nbsp;&nbsp;  </div>
+						<div style="float: left;  margin-top:15px ;margin-left: 10px;"> &nbsp;&nbsp;XXL&nbsp;&nbsp;  </div>
+						
+					</div>
+					<div  style="margin-top: 15px;">
+						数量：<select>
+							<option value="">1</option>
+							<option value="">2</option>
+							<option value="">3</option>
+							<option value="">4</option>
+							<option value="">5</option>
+							<option value="">6</option>
+							<option value="">7</option>
+							<option value="">8</option>
+							<option value="">9</option>
+							<option value="">10</option>
+						</select>
+					</div>
+					<div style="margin-top: 25px;">
+						<span id="">
+							已选：<span class="yanse" >黑色</span><span style="font-size: 20px;color: red;">&nbsp;&nbsp;&nbsp;&nbsp;现在有货</span>
+						</span>
+					</div>
+					<div style="margin-top: 25px;" id="goumai">
+						<div  id="goumaione" >立即购买</div>
+						<div id="goumaitwo"><!--<img src="../小图片/购物车.PNG"  />-->加入购物车</div>
+						
+					</div>
+				</div>	
+				
+			</div>
+			
+		</div>
+		
+		<div id="mannequin">
+			
+			<div  id="mannequinone">
+				<hr />
+				<span id="">详情图片：</span>
+				<br />
+				<span>注： 商品实际颜色以静物图为准</span>	
+			</div>
+			<div  id="mannequintwo">
+				<img src="../img/xbx14_01.jpg" />
+				<img src="../img/xbx14_02.jpg" />
+				<img src="../img/xbx14_03.jpg" />
+				<img src="../img/xbx14_04.jpg" />
+				<img src="../img/xbx14_05.jpg" />
+				<img src="../img/xbx14_06.jpg" />
+				<img src="../img/xbx14_07.jpg" />
+				<img src="../img/xbx14_08.jpg" />
+				
+			</div>
+		</div>
+		<div id="comment_question">
+			<div id="recommend">
+				<p>产品推荐</p>
+				<div id="recommend_list">
+					<li>
+						<img class="tttt" src="../img/302.PNG" />
+						<span class="wwww">凡客 女版 藏青</span>
+						<br />
+						<span class="uuuu">仅售198</span>
+					</li>
+					<li>
+						<img src="../particulars-phone/6375942-1j201706081710395370.jpg" />
+						<span id="span1">凡客 男装 黑色</span>
+						<br />
+						<span id="span2">仅售99</span>
+					</li>
+					<li>
+						<img src="../img/305.PNG" />
+						<span id="span1">凡客 女版 藏青</span>
+						<br />
+						<span id="span2">仅售198</span>
+					</li>
+					<li>
+						<img src="../img/307.PNG" />
+						<span id="span1">凡客 女版 藏青</span>
+						<br />
+						<span id="span2">仅售198</span>
+					</li>
+					<li>
+						<img src="../img/010.PNG" />
+						<span id="span1">凡客 男装 黑色</span>
+						<br />
+						<span id="span2">仅售99</span>
+						
+					</li>
+			    </div>
+			</div>
+			<div id="comment">
+				<div id="comment_biaoqian">
+					<div style="font-size: 14px; float: left;margin-left: 40px; line-height: 50px;">全部评论11111</div>
+					<div style="float: right; margin-right: 40px ;margin-top: 10px;cursor: pointer; width: 100px;height: 30px;background: #dc0e15;text-align: center;"><a href="Register.html" style="font-size: 12px;color: white;text-align: center; line-height: 30px; text-decoration: blink;">我要评论</a></div>
+				</div>
+				<div id="comment_pinglun">
+					<div style="width: 720px;height: 150px;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							买这么多次凡客的鞋子，从来都是40码，然而第一次买帆布鞋就买大了，换之……鞋子纯白其实太白了点，不过也是挺好看的。鞋垫一如既往的好，软，厚，舒服。质量过硬，脚后跟位置真的硬，穿两次还是磨脚，看来得多穿磨到皮厚为止
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+							dsvsdcadc*****
+						</div>
+					</div>
+					<div style="width: 720px;height: 150px; border-top: 1px dotted gainsboro;border-bottom: 1px dotted gainsboro;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							刚买回来穿时，脚后跟有点磨脚，都出血了，鞋底也不耐磨，总体表现正常水平。最让人不解的是价格非常的不稳定，还有奇葩的充值方式，不能返还
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+							dsvsdcadc*****
+						</div>
+					</div>
+					<div style="width: 720px;height: 150px;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							多年凡客老用户，但以后不会再买了。鞋的色差大得让我怀疑人生，新时白得像瓶荧光剂，穿几次就黄得像小黄人，最可恶的是只有帆布发黄，鞋头鞋底的胶还是白晃晃的，小白鞋硬是穿出了黄白双拼烧腊饭的效果，感觉自己像脚踏一个切开的水煮蛋出门！而且！凡客还担心没人留意到这么酷的拼色鞋，在鞋底设计了咯吱咯吱的脚动发声装置！一走路呀大家都看我！那就是我要的拼色鞋！时尚时尚最时尚！耶！
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+							*AFdevserv
+						</div>
+					</div>
+					<div style="width: 720px;height: 150px; border-top: 1px dotted gainsboro;border-bottom: 1px dotted gainsboro;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							鞋子挺好的。不过有个问题 我穿运动鞋和皮鞋都是45的 脚长现280在换了44还是能插一个手指进去 快晕了
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+							ds**dfvsdf
+						</div>
+					</div>
+					<div style="width: 720px;height: 150px;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							刚买回来穿时，脚后跟有点磨脚，都出血了，鞋底也不耐磨，总体表现正常水平。最让人不解的是价格非常的不稳定，还有奇葩的充值方式，不能返还
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+							dsvsdcadc*****
+						</div>
+					</div>
+					<div style="width: 720px;height: 150px; border-top: 1px dotted gainsboro;border-bottom: 1px dotted gainsboro;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							买这么多次凡客的鞋子，从来都是40码，然而第一次买帆布鞋就买大了，换之……鞋子纯白其实太白了点，不过也是挺好看的。鞋垫一如既往的好，软，厚，舒服。质量过硬，脚后跟位置真的硬，穿两次还是磨脚，看来得多穿磨到皮厚为止
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+						    ****afedvs
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="question">
+				
+				<div id="question_biaoqian">
+					<div style="font-size: 14px; float: left;margin-left: 40px; line-height: 50px;">全部评论11111</div>
+					<div style="float: right; margin-right: 40px ;margin-top: 10px;cursor: pointer; width: 100px;height: 30px;background: #dc0e15;text-align: center;"><a href="Register.html" style="font-size: 12px;color: white;text-align: center; line-height: 30px; text-decoration: blink;">我要提问</a></div>
+				</div>
+				<div id="question_pinglun">
+					<div style="width: 720px;height: 150px;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							<img src="../小图片/QQQQQQQQQQQQQQQQQQ.PNG" style="width: 20px;height: 20px;"/> ：这鞋没有任何商标吗？        
+							<br /><br /><br />
+							<img src="../小图片/AAAAAAAAA.PNG" style="width: 20px;height: 20px;"/> ：亲爱的客户您好，此款商品除鞋底一处有LOGO外，其余部分并无LOGO的。感谢您的支持！祝您购物愉快！\(^o^)/
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+							1839***
+						</div>
+					</div>
+					<div style="width: 720px;height: 150px; border-top: 1px dotted gainsboro;border-bottom: 1px dotted gainsboro;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							<img src="../小图片/QQQQQQQQQQQQQQQQQQ.PNG" style="width: 20px;height: 20px;"/> ：42的黑色男版能不能快点有货，充了值却发现没货真是晕…                         2017-07-09
+							<br /><br /><br />
+							<img src="../小图片/AAAAAAAAA.PNG" style="width: 20px;height: 20px;"/> ：亲爱的客户您好，暂时没有接到具体的补货通知，请您随时关注网站信息或选购其它有货的商品，感谢您的支持！祝您购物愉快！O(∩_∩)O
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+							1399798***
+						</div>
+					</div>
+					<div style="width: 720px;height: 150px;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							<img src="../小图片/QQQQQQQQQQQQQQQQQQ.PNG" style="width: 20px;height: 20px;"/> ：您好，男款136，女款还是198吗……                         2017-07-09
+							<br /><br /><br />
+							<img src="../小图片/AAAAAAAAA.PNG" style="width: 20px;height: 20px;"/> ：亲爱的客户您好，此款部分颜色是限时抢购价136元，女款暂无此活动。感谢您的支持！
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+							1582692***
+						</div>
+					</div>
+					<div style="width: 720px;height: 150px; border-top: 1px dotted gainsboro;border-bottom: 1px dotted gainsboro;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							<img src="../小图片/QQQQQQQQQQQQQQQQQQ.PNG" style="width: 20px;height: 20px;"/> ：您好，男款136，女款还是198吗……                         2017-07-09
+							<br /><br /><br />
+							<img src="../小图片/AAAAAAAAA.PNG" style="width: 20px;height: 20px;"/> ：亲爱的客户您好，此款部分颜色是限时抢购价136元，女款暂无此活动。感谢您的支持！
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+							rvsrvs***
+						</div>
+					</div>
+					<div style="width: 720px;height: 150px;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							<img src="../小图片/QQQQQQQQQQQQQQQQQQ.PNG" style="width: 20px;height: 20px;"/> ：另外充一百送一百是立刻就能使用的吗？
+							<br /><br /><br />
+							<img src="../小图片/AAAAAAAAA.PNG" style="width: 20px;height: 20px;"/> ：亲爱的客户您好，充值成功后可以使用的。感谢您的支持！
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+							**亚瑟王
+						</div>
+					</div>
+					<div style="width: 720px;height: 150px; border-top: 1px dotted gainsboro;border-bottom: 1px dotted gainsboro;">
+						<div style="float: left; width: 570px;height: 149px;border-right: 1px dotted gainsboro;" >
+							<br />
+							<img src="../小图片/QQQQQQQQQQQQQQQQQQ.PNG" style="width: 20px;height: 20px;"/> ：这鞋没有任何商标吗？        
+							<br /><br /><br />
+							<img src="../小图片/AAAAAAAAA.PNG" style="width: 20px;height: 20px;"/> ：亲爱的客户您好，此款商品除鞋底一处有LOGO外，其余部分并无LOGO的。感谢您的支持！祝您购物愉快！\(^o^)/
+						</div>
+						<div style="float: right; width: 148px;height: 148px; text-align: center; line-height: 148px;">
+							终极***一家
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="Stern" style=" width: 1200px;height: 540px; margin:0 auto;"></div>
+	</body>
+	
+	
+	<script type="text/javascript">
+			var miaoshus=document.getElementById("miaoshus");
+			var pingluns=document.getElementById("pingluns");
+			var tiwens=document.getElementById("tiwens");
+		window.onscroll=function(){
+			var enable_Top=document.getElementById("enable_Top");
+			
+			var _scrolltop=document.body.scrollTop||document.documentElement.scrollTop;
+			
+			if(_scrolltop>=720){
+				enable_Top.style.display="block";
+				enable_Top.style.position="fixed";
+				enable_Top.style.top=0;
+			}else{
+				enable_Top.style.display="none";
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+		miaoshus.onclick=function(){
+				
+				window.scrollTo(0,980)
+				
+			}
+		pingluns.onclick=function(){
+				
+				window.scrollTo(0,3108)
+				
+			}
+		tiwens.onclick=function(){
+				
+				window.scrollTo(0,4136)
+			
+			
+			}
+		
+		
+		
+		
+		
+	</script>
+	<script type="text/javascript">
+		
+		var product={};
+
+		product.hot=[
+		
+				{"id":"001","name":"凡客T恤  熊本熊T14 ","src":"../particulars-phone/6375942-1j201706081710395370.jpg","price":"666","yanse":"黑色",
+				"tuijians":[{"tttt":"../img/001.PNG","uuuu":"1314","wwww":"Txu CALM Going"},
+							{"tttt":"../img/201.PNG","uuuu":"1916","wwww":"Txu CALM Going"},
+							{"tttt":"../img/303.PNG","uuuu":"520","wwww":"Txu CALM Going"},
+							{"tttt":"../img/306.PNG","uuuu":"888","wwww":"Txu CALM Going"},
+							{"tttt":"../img/008.PNG","uuuu":"897","wwww":"Txu CALM Going"}]
+				},
+				
+				
+				{"id":"002","name":"Txu CALM Going","src":"../img/002.PNG","price":"现价:111","yanse":"灰色",
+				"tuijians":[{"tttt":"../img/012.PNG","uuuu":"5624","wwww":"Txu CALM Going"},
+							{"tttt":"../img/010.PNG","uuuu":"782","wwww":"Txu CALM Going"},
+							{"tttt":"../img/011.PNG","uuuu":"5737","wwww":"Txu CALM Going"},
+							{"tttt":"../img/203.PNG","uuuu":"1436","wwww":"Txu CALM Going"},
+							{"tttt":"../img/305.PNG","uuuu":"1424","wwww":"Txu CALM Going"}]
+				},
+							
+				{"id":"003","name":"T恤 苦逼1","src":"../img/003.PNG","price":"1314","yanse":"白色",
+				"tuijians":[{"tttt":"../img/001.PNG","uuuu":"1314","wwww":"Txu CALM Going"},
+							{"tttt":"../img/201.PNG","uuuu":"1916","wwww":"Txu CALM Going"},
+							{"tttt":"../img/303.PNG","uuuu":"520","wwww":"Txu CALM Going"},
+							{"tttt":"../img/306.PNG","uuuu":"888","wwww":"Txu CALM Going"},
+							{"tttt":"../img/307.PNG","uuuu":"897","wwww":"Txu CALM Going"}]
+				},
+				
+				
+				
+				{"id":"004","name":"T恤 好小猪7","src":"../img/004.PNG","price":"89757","yanse":"白色",
+				"tuijians":[{"tttt":"../img/012.PNG","uuuu":"5624","wwww":"CALM Radica"},
+							{"tttt":"../img/010.PNG","uuuu":"782","wwww":"CALM Yourself"},
+							{"tttt":"../img/011.PNG","uuuu":"5737","wwww":"Txu CALM Going"},
+							{"tttt":"../img/208.PNG","uuuu":"1436","wwww":"CALM Radica"},
+							{"tttt":"../img/305.PNG","uuuu":"1424","wwww":"Txu CALM Going"}]
+				},
+				
+				
+				
+				{"id":"001","name":"Txu CALM Going","src":"../img/001.PNG","price":"666","yanse":"土灰",
+				"tuijians":[{"tttt":"../img/001.PNG","uuuu":"1314","wwww":"CALM Radica"},
+							{"tttt":"../img/206.PNG","uuuu":"1916","wwww":"Txu CALM Going"},
+							{"tttt":"../img/303.PNG","uuuu":"520","wwww":"CALM Yourself"},
+							{"tttt":"../img/306.PNG","uuuu":"888","wwww":"Txu CALM Going"},
+							{"tttt":"../img/008.PNG","uuuu":"897","wwww":"CALM Yourself"}]
+				},
+				
+				
+				
+				{"id":"002","name":"T恤 熊本熊T10","src":"../img/002.PNG","price":"111","yanse":"灰色",
+				"tuijians":[{"tttt":"../img/012.PNG","uuuu":"5624","wwww":"Txu CALM Going"},
+							{"tttt":"../img/010.PNG","uuuu":"782","wwww":"Txu CALM Going"},
+							{"tttt":"../img/302.PNG","uuuu":"5737","wwww":"Txu CALM Going"},
+							{"tttt":"../img/203.PNG","uuuu":"1436","wwww":"Txu CALM Going"},
+							{"tttt":"../img/305.PNG","uuuu":"1424","wwww":"Txu CALM Going"}]
+				},
+				
+				
+				
+				{"id":"003","name":"T恤 苦逼1","src":"../img/003.PNG","price":"1314","yanse":"白色",
+				"tuijians":[{"tttt":"../img/001.PNG","uuuu":"1314","wwww":"Txu CALM Going"},
+							{"tttt":"../img/201.PNG","uuuu":"1916","wwww":"Txu CALM Going"},
+							{"tttt":"../img/305.PNG","uuuu":"520","wwww":"Txu CALM Going"},
+							{"tttt":"../img/306.PNG","uuuu":"888","wwww":"Txu CALM Going"},
+							{"tttt":"../img/008.PNG","uuuu":"897","wwww":"Txu CALM Going"}]
+				},
+				
+				
+				
+				{"id":"004","name":"T恤 好小猪7","src":"../img/004.PNG","price":"89757","yanse":"白色",
+				"tuijians":[{"tttt":"../img/012.PNG","uuuu":"5624","wwww":"Txu CALM Going"},
+							{"tttt":"../img/006.PNG","uuuu":"782","wwww":"Txu CALM Going"},
+							{"tttt":"../img/011.PNG","uuuu":"5737","wwww":"Txu CALM Going"},
+							{"tttt":"../img/201.PNG","uuuu":"1436","wwww":"Txu CALM Going"},
+							{"tttt":"../img/305.PNG","uuuu":"1424","wwww":"Txu CALM Going"}]
+				}
+			
+		
+//						{"id":"001","src":"../img/55551.PNG",price:"888",'des':"好的东西","name":"天空"},
+//						{"id":"002","src":"../img/55552.PNG",price:"999",'des':"好的东西1","name":"空气"},
+//						{"id":"003","src":"../img/55553.PNG",price:"188",'des':"不好","name":"火狐"},
+					
+					]
+		
+		
+		$(function(){
+		var hashname=window.location.hash.substr(1);
+		
+		var searchname=window.location.search.substr(1);
+		
+		var particulars="";
+		particulars=product.hot;
+			
+			console.log(particulars)
+			
+			$.each(particulars,function(i,ele){
+				
+				if(particulars[i].id==hashname){
+					$(".prcie").html(particulars[i].price);	
+					$(".pro_img").attr("src",particulars[i].src);
+					$(".proname").html(particulars[i].name);
+					$(".yanse").html(particulars[i].yanse);
+					$(".des").html(particulars[i].des);
+					$("#nav span:eq(1)").html(particulars[i].name);
+					$("#Stick #Stick_Top").html(particulars[i].name);
+					$("#Stick .proname").html(particulars[i].name);
+					$("#nav_particulars .proname").html(particulars[i].name);
+					
+					$("#headert #enable_Top #enableTopo .proname").html(particulars[i].name);
+					var tuijians=particulars[i].tuijians;
+					var tuijianstr=""
+					$.each(tuijians, function(i,ele) {
+//						'<li>'+tuijians[i].wwww+'</li>'
+						tuijianstr+='<li>'
+										+'<img class="tttt" src="'+tuijians[i].tttt+'" />'
+										+'<br />'
+										+'<span class="wwww">'+tuijians[i].wwww+'</span>'
+										+'<br />'
+										+'<span class="uuuu">'+tuijians[i].uuuu+'</span>'
+									+'</li>'
+//						$(".wwww").attr("src",tuijians[i].wwww)
+//						
+//						console.log(tuijians)
+				  });
+				  $("#recommend_list").html(tuijianstr);
+			
+					
+				}
+				
+			})
+			
+			
+	})
+		
+		
+	</script>
+	
+</html>

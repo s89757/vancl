@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录页面</title>
+		<link rel="stylesheet" href="../css/Enroll.css" />
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				
+			}
+			#wap{
+				margin: 0 auto;
+				width: 1200px;
+				height: 600px;
+				/*background: skyblue;*/
+			}
+			#wap ul{
+				overflow: hidden;
+			}
+			#wap ul li{
+				list-style: none;
+				float: left;
+			}
+			/*#vancl_enter input{
+				width: 360px;
+				height: 50px;
+				position: absolute;
+			}
+			#vancl_enter ul{
+				position: absolute;
+				top: 410px;
+				overflow: hidden;
+				margin-left: 10px;
+			}
+			#vancl_enter ul li{
+				cursor: pointer;
+				margin-left: 10px;
+				float: left;
+			}
+			#vancl_enter ul li img{
+				width: 35px;
+				height: 35px;
+			}*/
+		</style>
+		<script type="text/javascript" src="../js/Registerjs.js">
+			
+		</script>
+		<link rel="stylesheet" href="../css/register.css" />
+	</head>
+	<body>
+		<div id="wap">
+			<ul >
+				<li><a href="http://127.0.0.1:8020/vancl-homepage/homepage/one_homepage.html"><img src="../img/vancl.PNG"/></a></li>
+				<li style="float: right; line-height: 50px;"><span>帮助</span></li>
+			</ul>
+			
+			<div id="Enter" style="margin-top: 10px; overflow: hidden;position: relative;">
+				<hr />
+				<div id="vancl_phone" style="width: 700px;height: 600px; float: left;" >
+					<img src="../小图片/login120412_newlogo.jpg" style="cursor: pointer; margin-left: 120px; margin-top: 75px;"/>
+				</div >
+				<div id="vancl_enter">
+					<div id="enterOne">
+						<span>凡客Vancl登录</span>
+						<div >没有账户免费<a href="Enroll.html" >注册</a></div>
+					</div>
+					<div id="enter_anniu">
+						<div id="common_member">普通登录</div>
+						<div id="speediness">快速登录</div>
+					</div>
+					<div id="Regist">
+						<div id="registerOne">
+							<input  type="text" onfocus="clears()" id="registerOneo" placeholder="请输入用户名(不包含汉字)"/>
+							<div id="yonghuwk" ><img src="../img/17e58PICVtD_1024.png" style="width: 10px;height: 10px;"/>用户名不能为空，请重新输入</div>
+							<div id="yonghucw" ><img src="../img/17e58PICVtD_1024.png" style="width: 10px;height: 10px;"/>用户名输入错误，请重新输入</div>
+							<input type="password" onfocus="clears()" id="registerOnet"   placeholder="请输入密码(6-18只能包含字符、数字和下划线)"/>
+							<div id="mimawk"><img src="../img/17e58PICVtD_1024.png" style="width: 10px;height: 10px;"/>密码不能为空，请重新输入</div>
+							<div id="mimacw"><img src="../img/17e58PICVtD_1024.png" style="width: 10px;height: 10px;"/>密码输入错误，请重新输入</div>
+							<a >找回密码</a>
+							<div id="denglu"><a >登录</a></div>
+						</div>
+						<div id="registerTwo">
+							<input style="width: 180px;height: 30px;" type="text" placeholder="输入手机号"/>
+							<input style="width: 100px;height: 30px;" type="text" placeholder="验证码"/>
+							<input style="width: 280px;height: 30px;" type="text" placeholder="请输入手机验证码"/>
+							<div id="registerTwoo"><a>获取短信验证</a></div>
+							<div id="registerTwot" onclick="yanzhengxinxi()">1545</div>
+							<a id="registerTwos" onclick="yanzhengxinxi()">看不清换一张?</a>
+							<div id="registerTwof"><a>登录</a></div>
+		
+						</div>
+						<hr />
+						<div style="font-size: 15px;margin-top: 29px; margin-left: 10px;" >使用合作网站账号登录凡客</div>
+					    <ul >
+						    <li><img src="../小图片/t016fb13e1814195514.jpg" /></li>
+							<li><img src="../小图片/t01a21b2410426fb27e.jpg" /></li>
+							<li><img src="../小图片/t011a33a8f1b5e9bda7.jpg" /></li>
+							<li><img src="../小图片/t017854de5fd36c7169.png" /></li>
+						    <li><img src="../小图片/t01533579aea8cea576.jpg" /></li>
+							<li><img src="../小图片/t01b880efd69ce46191.jpg" /></li>
+						</ul>		
+		            </div>
+				</div>
+				
+				
+				
+				<!--<div id="vancl_enter" style=" position: relative; width: 400px;height: 600px;margin-right: 100px;margin-top: 40px; float: right; overflow: hidden;">
+					<div style="color: gray; float: left; font-size: 25px;">凡客Vancl登录</div>
+					<div style="color: gray; float: right; margin: ;font-size: 20px;">没有账户免费<a href="Enroll.html" style="color: red; cursor: pointer;text-decoration: none;">注册</a></div>
+					<div style="width: 398px; height: 430px;  border: 1px solid red; overflow: hidden;">
+						<div style="cursor: pointer; float: left; background: #b42025; width: 199px; height: 40px; text-align: center; line-height: 40px;">普通登录</div>
+						<div style="cursor: pointer; float: right; overflow: hidden; background: gray; width: 199px; height: 40px; text-align: center; line-height: 40px;">快速登录</div>
+						<input type="text" placeholder="请输入用户名" style="  top: 100px; left: 20px;"/>
+						<input type="text" placeholder="请输入密码" style="top: 170px; left: 20px;"/>
+						<a style="color: red; position: absolute; font-size: 20px; top: 258px; right: 22px; cursor: pointer;">找回密码</a>
+						<input type="button" style="opacity: 0.9; top: 280px; left: 20px; background: #b42025; font-size: 28px; color: white;" value="登录"/>
+						<a style="position: absolute;top: 390px; left: 20px;">使用合作网站账号登录凡客</a>
+						<ul>
+							<li><img src="../小图片/t016fb13e1814195514.jpg" /></li>
+							<li><img src="../小图片/t01a21b2410426fb27e.jpg" /></li>
+							<li><img src="../小图片/t011a33a8f1b5e9bda7.jpg" /></li>
+							<li><img src="../小图片/t017854de5fd36c7169.png" /></li>
+							<li><img src="../小图片/t01533579aea8cea576.jpg" /></li>
+							<li><img src="../小图片/t01b880efd69ce46191.jpg" /></li>
+						</ul>
+					</div>	
+					
+				</div>-->
+				
+			</div>
+			
+		</div>
+		<div id="sternw" style="margin: 0 auto; margin-top: 50px;"></div>
+		<script type="text/javascript" src="jquery-1.8.3.min.js">
+			
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				$("#sternw").load("SternT.html")
+			})
+		</script>
+	</body>
+</html>

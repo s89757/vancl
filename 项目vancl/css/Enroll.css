@@ -1,0 +1,208 @@
+*{
+				margin: 0;
+				padding: 0;
+				
+			}
+			#wap{
+				margin: 0 auto;
+				width: 1200px;
+				height: 672px;
+				/*background: skyblue;*/
+			}
+			#wap ul{
+				overflow: hidden;
+				
+			}
+			#wap ul a{
+				list-style: none;
+				float: left;
+				
+				
+			}
+			#Enter_message{
+				overflow: hidden;
+				float: right;
+				margin-right: 50px;
+				margin-top: 25px;
+				width: 450px;
+				height: 500px;
+				/*background: yellow;*/
+                position: relative;
+			}
+			#Enter_message ul li{
+				color: grey;
+				font-size: 20px;
+				overflow: hidden;
+			}
+			#Enter_message input{
+				width: 400px;
+				height: 40px;
+				margin-left: 20px;
+				position: absolute;
+				overflow: hidden;
+				border: 1px solid gainsboro;
+			}
+			#Enter_message input:hover{
+				border: 1px solid skyblue;
+			}
+			#obtains{
+				width: 100px;
+				height: 44px;
+				position: absolute;
+				top: 70px;
+				background: gainsboro;
+				opacity: 0.5;
+				right: 30px;
+				border: 1px solid gray;
+			}
+			#obtains #obtain{
+				text-decoration: none;
+				font-size: 13px;
+				margin-left: 12px;
+				text-align: center;
+				line-height: 50px;
+				position: relative;
+				
+			}
+			#obtains #obtain:hover{
+				text-decoration:underline;
+				color: red;
+			}
+			
+			
+			#registers{
+				width: 400px;
+				height: 50px;
+				position: absolute;
+				top: 400px;
+				background: grey;
+				left: 20px;
+				cursor: pointer;
+			}
+			
+			#registers #register{
+				text-decoration: none;
+				font-size: 25px;
+				margin-left: 140px;
+				text-align: center;
+				line-height: 50px;
+				position: relative;
+				color: white;
+			}
+			
+			#registers #register:hover{
+				text-decoration: underline;
+				color: white;
+			}
+			
+			#registerOne{
+				text-decoration: none;
+				color: red;
+			}
+			#registerOne:hover{
+				text-decoration: underline;
+				color: red;
+			}
+			
+
+/*style="width: 18px; height: 18px; top: 370px;"
+*/
+#Enter_message #btnBtn{
+	width: 18px;
+	height: 18px;
+	top: 372px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*正则框框*/ 
+
+#Enter_message #inputOnewk{
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	top: 116px;
+	left: 50px;
+	
+	border: 1px solid gainsboro;
+	display: none;
+}
+
+#Enter_message #inputTwowk{
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	top: 186px;
+	left: 50px;
+	border: 1px solid gainsboro;
+	display: none;
+}
+#Enter_message #inputThreewk{
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	top: 256px;
+	left: 50px;
+	border: 1px solid gainsboro;
+	display: none;
+}
+#Enter_message #inputFourwk{
+	width: 220px;
+	height: 20px;
+	position: absolute;
+	top: 326px;
+	left: 50px;
+	border: 1px solid gainsboro;
+	display: none;
+}
+
+#Enter_message #inputOnecw{
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	top: 116px;
+	left: 50px;
+	
+	border: 1px solid gainsboro;
+	display: none;
+	z-index: 999;
+}
+
+#Enter_message #inputTwocw{
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	top: 186px;
+	left: 50px;
+	border: 1px solid gainsboro;
+	display: none;
+}
+#Enter_message #inputThreecw{
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	top: 256px;
+	left: 50px;
+	border: 1px solid gainsboro;
+	display: none;
+}
+#Enter_message #inputFourcw{
+	width: 220px;
+	height: 20px;
+	position: absolute;
+	top: 326px;
+	left: 50px;
+	border: 1px solid gainsboro;
+	display: none;
+}

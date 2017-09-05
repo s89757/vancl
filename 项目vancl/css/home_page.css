@@ -1,0 +1,303 @@
+*{
+				margin: 0;
+				padding: 0;
+				
+			}
+			
+			#homepageWap{z-index: 1; width: 1200px;margin: 0 auto;min-width: 1200px;/*margin-top:200px ;*/}
+			#carousel{width: 1200px;height: 500px;position: relative;overflow: hidden;}
+			#phos{width:7200px;width: 500px;position: absolute;}
+			#phos li{list-style: none;float:left;}
+			#phos li img{width: 1200px;height: 500px;}
+			#phoBtn{position: absolute;left: 40%;top: 92%;}
+			#phoBtn li{width: 12px;height: 12px;float: left;list-style: none;background: khaki;margin-left: 20px;border-radius: 100%;opacity: 0.5;}
+			#phoBtn li:hover{background: deepskyblue;}
+			#frontBtn{opacity: 0.4; width: 230px;height: 200px;position: absolute;left: 0%;top: 18%;background: url(../one-img/986e7dd78eccf2a13b6cf3c30b67dce7.png) no-repeat -30px -160px;}
+			#backBtn{opacity: 0.4; width: 230px;height: 200px;position: absolute;right: 0%;top: 18%;background: url(../one-img/986e7dd78eccf2a13b6cf3c30b67dce7.png) no-repeat -260px -160px;}
+			#getEnter{width: 1200px;height: 100px;}
+			#getEnter img{width: 1200px;height: 50px;margin-top: 20px;}
+		
+		
+		
+		#goumaione,#goumaitwo:hover{
+			cursor: pointer;
+		}	
+		
+			#comPages{
+				
+				width: 1200px;
+				
+			}
+			#comPages #oPage{
+				position: relative;
+				height: 520px;
+				/*margin-top: 3px;*/
+			}
+			#comPages h2{
+				line-height: 100px;
+				text-align: center;
+				opacity: 0.4;
+			}
+			
+			#comPages ul{
+				overflow: hidden;
+			}
+			#comPages ul li {
+				list-style: none;
+				float: left;
+				margin-left: 10px;
+			}
+			#comPages h4{
+				font-size: 12px;
+			}
+			
+
+
+
+
+
+
+
+
+#comPage{
+	width: 1200px;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+
+#comPage h2{
+	margin: 0 auto;
+	line-height: 80px;
+	text-align: center;
+}
+
+#comPage .com_page{
+	width: 270px;
+	height: 420px;
+	float: left;
+	/*border: 15px solid white;*/
+	margin-top: 30px;
+	margin-left:25px ;
+}
+#comPage .com_page img{
+	width: 270px;
+	height: 300px;
+	border: 1px solid gray;
+	/*box-shadow: 0px 0px 5px red;*/
+	cursor: pointer;
+}
+#comPage .com_page img:hover{
+	
+	box-shadow: 0px 0px 10px red;
+	
+}
+#comPage .com_page .pageOne{
+	width: 270px;
+	height: 30px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+#comPage .com_page .pageTwo{
+	width: 270px;
+	height: 40px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	
+}
+
+#comPage .com_page span{
+	color: red;
+	font-size: 22px;
+	cursor: pointer;
+	
+}
+#comPage .com_page .pagethree{
+	width: 270px;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 48px;
+	background: red;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+#comPage .com_page .pagethree span{
+
+	font-size: 28px;
+	cursor: pointer;
+	color: white;
+	
+}
+
+
+
+
+
+
+
+
+#mannequin{
+	width: 1200px;
+	margin: 0 auto;
+	position: absolute;
+	background: red;
+	top: 1000px;
+}
+
+
+#mannequinone{
+	width: 1200px;
+	width: 100px;
+}
+
+
+
+
+
+
+
+
+
+/*底部图片动画效果*/
+#oPage ul li img:hover{
+	transform: translateY(-2px);
+	transition: all 0.6s;
+box-shadow: 3px 3px 10px burlywood;
+}
+
+#TPage ul li img:hover{
+	transform: translateY(-2px);
+	transition: all 0.6s;
+box-shadow: 3px 3px 10px burlywood;
+}
+
+
+
+
+
+/*数据里面的内容*/
+/*#hotlists{
+	width: 1200px;
+	height: 500px;
+	background: yellow;
+	margin: 0 auto;
+}
+
+
+.hotlist{
+	width: 270px;
+	height: 420px;
+	float: left;
+	margin-top: 30px;
+	margin-left:25px ;
+}
+.hotlist dt{
+	width: 270px;
+	height: 300px;
+	border: 1px solid gray;
+	
+	cursor: pointer;
+}
+
+.hotlist .hotlist_name{
+	width: 270px;
+	height: 30px;
+	text-align: center;
+	cursor: pointer;
+	background: red;
+	line-height: 30px;
+}
+.hotlist .hotlist_price{
+	width: 270px;
+	height: 40px;
+	text-align: center;
+	cursor: pointer;3
+	background: yellow;
+	line-height: 40px;
+}
+.hotlist .hotlist_hprice{
+	width: 270px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	background: khaki;
+	line-height: 50px;
+}*/
+
+
+#hotlists{
+				width: 1200;
+				height: 425px;
+				margin: 0 auto;
+				position: relative;
+			}
+			
+			dl{
+				/*background: red;*/
+				
+				width: 270px;
+				float: left;
+				margin-left: 25px;
+				cursor: pointer;
+				margin-top: 30px;
+			}
+			
+			dt img{
+				width: 270px;
+			    height: 300px;
+			    border: 1px solid gainsboro;
+			}
+			dl img:hover{
+			/*	border: 1px solid red;*/
+				
+				box-shadow: 0px 0px 10px red;
+				/*transition: all 1s;*/
+			}
+			
+			dd{
+				width: 100%;
+				text-align: center;
+				font-size: 20px;
+			}
+			
+
+#hotlists_price{
+	width: 270px;
+	height: 30px;
+	text-align: center;
+	cursor: pointer;
+	background: red
+	line-height: 30px;
+}
+#hotlists_name{
+	width: 270px;
+	height: 40px;
+	text-align: center;
+	cursor: pointer;
+	/*background: yellow;*/
+	line-height: 40px;
+}
+#hotlists_btn{
+	width: 270px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	/*background: khaki;*/
+	line-height: 50px;
+	background: red;
+	color: white;
+}
+
+/*#hotlists_box{
+	width: 269px;
+	height: 299px;
+	background: red;
+	display: none;
+
+}*/
